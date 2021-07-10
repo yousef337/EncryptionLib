@@ -1,5 +1,6 @@
 import string as s
 #TODO decrypt def, break class
+
 class multiplicative:
 
     def __init__(self):
@@ -28,7 +29,10 @@ class multiplicative:
         pass
 
 class breakMultiplicative:
-    pass
+
+    def breakCipher(self, cipher):
+        pass
 
 a = multiplicative()
 print(a.encrypt("ydztg", 15))
+print(a.decrypt("WTLZM", 15))
